@@ -1,15 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(IsPrintable("hello"))
-	fmt.Println(IsPrintable("hello\n"))
-
-}
-
 func IsPrintable(s string) bool {
 
 	tab := []rune(s)

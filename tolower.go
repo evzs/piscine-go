@@ -1,13 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(ToLower("Hello! How are you?"))
-}
-
 func ToLower(s string) string {
 
 	var lower string

@@ -1,13 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(ToUpper("Hello! How are you?"))
-}
-
 func ToUpper(s string) string {
 
 	var upper string

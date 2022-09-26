@@ -1,13 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(IterativePower(7, 3))
-}
-
 func IterativePower(nb int, power int) int {
 
 	if power < 0 {

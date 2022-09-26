@@ -1,14 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(MakeRange(5, 10))
-	fmt.Println(MakeRange(10, 5))
-}
-
 func MakeRange(min, max int) []int {
 
 	if min >= max {

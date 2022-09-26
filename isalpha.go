@@ -1,16 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(IsAlpha("thisisatest"))
-	fmt.Println(IsAlpha("this is a test"))
-	fmt.Println(IsAlpha("777!"))
-	fmt.Println(IsAlpha("7 7 7"))
-}
-
 func IsAlpha(s string) bool {
 	for _, alpha := range s {
 		if alpha < 48 {

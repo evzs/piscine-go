@@ -1,13 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Printf("%#v\n", SplitWhiteSpaces("Hello how are you?"))
-}
-
 func SplitWhiteSpaces(s string) []string {
 	var sresult []string
 

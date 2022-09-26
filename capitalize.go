@@ -1,13 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println(Capitalize("Hello! How are you? How+are+things+4you?"))
-}
-
 func Capitalize(s string) string {
 	x := []rune(s)
 	y := false

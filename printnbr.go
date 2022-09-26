@@ -2,13 +2,6 @@ package piscine
 
 import "github.com/01-edu/z01"
 
-func main() {
-	PrintNbr(-123)
-	PrintNbr(123)
-	z01.PrintRune('\n')
-	PrintNbr(383838)
-}
-
 func PrintNum(num int) {
 	x := '0'
 	if num == 0 {

@@ -4,10 +4,6 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
-	LastRune("testp")
-}
-
 func LastRune(s string) {
 	var y rune
 

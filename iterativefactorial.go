@@ -1,14 +1,5 @@
 package piscine
 
-import (
-	"fmt"
-)
-
-func main() {
-	arg := 9
-	fmt.Println(IterativeFactorial(arg))
-}
-
 func IterativeFactorial(nb int) int {
 
 	result := 1
